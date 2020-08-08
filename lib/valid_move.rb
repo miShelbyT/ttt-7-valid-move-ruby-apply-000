@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?
-  if user_input.between?(1,9) && position_taken? == false
+  if user_input.between?(0,8) && position_taken? == false
     true
   else
     false
